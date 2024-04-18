@@ -1,11 +1,11 @@
 body{
     --navbar-background: #F8F9FA;
-    --nav-text: #212529;
-    --nav-text-hover:#424949;
+    --nav-text: #1c2b4f;
+    --nav-text-hover:#1c2b4f;
     --sena: #1c2b4f;
     --text-shadow: rgba(28, 43, 79, 0.47);
     --background: #ffffff;
-    --text-color: #424949;
+    --text-color: #1c2b4f;
     --progres-background: #EBF3E8;
     --box-shadow: #888888;
     --progress-border: #424949;
@@ -249,6 +249,7 @@ h3, h2,h1{
 {
     .card{
         width: 240px;
+        height: 350px;
         margin-right: 15px;
     }
 
@@ -258,10 +259,15 @@ h3, h2,h1{
 
     .navbar > .container{
         width: 100%;
+        text-align: center;
     }
     
     .nav{
         font-size: 12px;
+    }
+
+    .sc-padding{
+        justify-content: space-between;
     }
 
    .margin-theme{
