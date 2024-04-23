@@ -150,6 +150,13 @@ h3, h2,h1{
     padding-right: 15px;
     padding-left: 15px;
 }
+.project-link{
+    text-decoration: none;
+    color: var(--textcolor);
+}
+.project-link:hover{
+    text-decoration: underline;
+}
 
 .card{
     padding-top: 20px;
