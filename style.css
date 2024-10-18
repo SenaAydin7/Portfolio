@@ -86,6 +86,10 @@ body{
     text-shadow: -2px 11px 4px var(--text-shadow); 
 }
 
+.sena:hover{
+    
+}
+
 .profile{
     font-size:25px;
 }
