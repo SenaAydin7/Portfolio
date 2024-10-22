@@ -1,27 +1,4 @@
 body{
-    --navbar-background: #F8F9FA;
-    --nav-text: #1c2b4f;
-    --nav-text-hover:#1c2b4f;
-    --sena: #1c2b4f;
-    --text-shadow: rgba(28, 43, 79, 0.47);
-    --background: #ffffff;
-    --text-color: #1c2b4f;
-    --progres-background: #EBF3E8;
-    --box-shadow: #888888;
-    --progress-border: #424949;
-    --progressbar-color: #424949;
-    --icon-color: #1c2b4f;
-    --linear-gradient1: #d1d5e0;
-    --linear-gradient2: #daede5;
-    --linear-gradient3: #929cad ;
-    --linear-gradient4: #EBF3E8;
-    --container-textcolor:#212529;
-    --contact-text:#212529BF;
-    --contact-label: #212529;
-    background: var(--background);
-}
-
-.dark-mode{
     --navbar-background: #212529;
     --nav-text: #f0f6ee;
     --nav-text-hover: #f2f2f2;
@@ -41,6 +18,29 @@ body{
     --container-textcolor: #f0f6ee;
     --contact-text: #f0f6ee;
     --contact-label:#EBF3E8;
+    background: var(--background);
+}
+
+.light-mode{
+    --navbar-background: #F8F9FA;
+    --nav-text: #1c2b4f;
+    --nav-text-hover:#1c2b4f;
+    --sena: #1c2b4f;
+    --text-shadow: rgba(28, 43, 79, 0.47);
+    --background: #ffffff;
+    --text-color: #1c2b4f;
+    --progres-background: #EBF3E8;
+    --box-shadow: #888888;
+    --progress-border: #424949;
+    --progressbar-color: #424949;
+    --icon-color: #1c2b4f;
+    --linear-gradient1: #d1d5e0;
+    --linear-gradient2: #daede5;
+    --linear-gradient3: #929cad ;
+    --linear-gradient4: #EBF3E8;
+    --container-textcolor:#212529;
+    --contact-text:#212529BF;
+    --contact-label: #212529;
 }
 
 
